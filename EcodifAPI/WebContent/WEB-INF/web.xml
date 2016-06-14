@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>EcodifAPI</display-name>
+	<context-param>
+		<param-name>resteasy.media.type.mappings</param-name>
+		<param-value>json : application/json, xml : application/xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>DriversDirectory</param-name>
+		<param-value>/home/Ecodif_Files/Drivers/</param-value>
+	</context-param>
+	<context-param>
+		<param-name>Wrnp_Schedule</param-name>
+		<param-value>/home/Ecodif_Files/WRNP_Ecodif/wrnp_schedule.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>ApplicationsDirectory</param-name>
+		<param-value>/home/andreza/Ecodif_Files/Applications/</param-value>
+	</context-param>
+	<context-param>
+		<param-name>EMMLDefaultFile</param-name>
+		<param-value>/home/andreza/Ecodif_Files/Applications/default.emml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>EMMLSchema</param-name>
+		<param-value>/home/andreza/jboss-6.1.0.Final/server/default/deploy/emml.war/WEB-INF/schemas/EMMLSpec.xsd</param-value>
+	</context-param>
+	<context-param>
+		<param-name>EMMLEnginePath</param-name>
+		<param-value>/home/andreza/jboss-6.1.0.Final/server/default/deploy/emml.war/WEB-INF/classes/</param-value>
+	</context-param>
+	<context-param>
+		<param-name>EMMLEngineURL</param-name>
+		<param-value>http://localhost:8080/emml/</param-value>
+	</context-param>
+	<context-param>
+		<param-name>AddressPortal</param-name>
+		<param-value>http://www.ecodif.com.br</param-value>
+	</context-param>
+	<context-param>
+		<param-name>resteasy.media.type.mappings</param-name>
+		<param-value>json : application/json, xml : application/xml</param-value>
+	</context-param>
+	<filter>
+		<filter-name>AuthFilter</filter-name>
+		<filter-class>br.com.ecodif.security.Filter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/api/sensor/*</url-pattern>
+		<url-pattern>/api/feed/*</url-pattern>
+		<url-pattern>/api/application/*</url-pattern>
+		<url-pattern>/api/qodisco/*</url-pattern>
+		<url-pattern>/api/unit/*</url-pattern>
+		<url-pattern>/api/conndevice/*</url-pattern>
+		<url-pattern>/api/platform/*</url-pattern>
+		<url-pattern>/api/device/*</url-pattern>
+	</filter-mapping>
+</web-app>

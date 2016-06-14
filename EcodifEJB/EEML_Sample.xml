@@ -1,0 +1,7 @@
+ <eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+	<environment>
+		<data id="1">
+			<current_value>35</current_value>
+		</data>	
+	</environment>
+</eeml>

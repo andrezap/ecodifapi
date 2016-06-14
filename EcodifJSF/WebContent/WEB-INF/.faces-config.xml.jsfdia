@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="home::#pages#public#index.xhtml"
+    NAME="output" PATH="/pages/public/index.xhtml"
+    TARGET="rules:#pages#public#index.xhtml" TITLE="home" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="errorLogin::#pages#public#index.xhtml"
+    NAME="output1" PATH="/pages/public/index.xhtml"
+    TARGET="rules:#pages#public#index.xhtml" TITLE="errorLogin" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="search::#pages#public#search.xhtml"
+    NAME="output2" PATH="/pages/public/search.xhtml"
+    TARGET="rules:#pages#public#search.xhtml" TITLE="search" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="caddevice::#pages#protected#fabdisp#regdevice.xhtml"
+    NAME="output3" PATH="/pages/protected/fabdisp/regdevice.xhtml"
+    TARGET="rules:#pages#protected#fabdisp#regdevice.xhtml"
+    TITLE="caddevice" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="connectdevice::#pages#protected#provdados#connectdevice.xhtml"
+    NAME="output5" PATH="/pages/protected/provdados/connectdevice.xhtml"
+    TARGET="rules:#pages#protected#provdados#connectdevice.xhtml"
+    TITLE="connectdevice" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listdevicepublic::#pages#public#listdevicepublic.xhtml"
+    NAME="output6" PATH="/pages/public/listdevicepublic.xhtml"
+    TARGET="rules:#pages#public#listdevicepublic.xhtml"
+    TITLE="listdevicepublic" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="cadfeed::#pages#protected#provdados#regfeed.xhtml"
+    NAME="output7" PATH="/pages/protected/provdados/regfeed.xhtml"
+    TARGET="rules:#pages#protected#provdados#regfeed.xhtml"
+    TITLE="cadfeed" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listfeed::#pages#protected#provdados#listfeed.xhtml"
+    NAME="output8" PATH="/pages/protected/provdados/listfeed.xhtml"
+    TARGET="rules:#pages#protected#provdados#listfeed.xhtml"
+    TITLE="listfeed" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listconectdevice::#pages#protected#provdados#listconnectdev.xhtml"
+    NAME="output12"
+    PATH="/pages/protected/provdados/listconnectdev.xhtml"
+    TARGET="rules:#pages#protected#provdados#listconnectdev.xhtml"
+    TITLE="listconectdevice" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="reguser::#pages#public#reguser.xhtml"
+    NAME="output13" PATH="/pages/public/reguser.xhtml"
+    TARGET="rules:#pages#public#reguser.xhtml" TITLE="reguser" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="docs::#pages#public#documentation.xhtml"
+    NAME="output14" PATH="/pages/public/documentation.xhtml"
+    TARGET="rules:#pages#public#documentation.xhtml" TITLE="docs" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="editDevice::#pages#protected#fabdisp#regdevice.xhtml"
+    NAME="output15" PATH="/pages/protected/fabdisp/regdevice.xhtml"
+    TARGET="rules:#pages#protected#fabdisp#regdevice.xhtml"
+    TITLE="editDevice" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listdevice::#pages#protected#fabdisp#listdevice.xhtml"
+    NAME="output16" PATH="/pages/protected/fabdisp/listdevice.xhtml"
+    TARGET="rules:#pages#protected#fabdisp#listdevice.xhtml"
+    TITLE="listdevice" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="feedvisualization::#pages#public#feedvisualization.xhtml"
+    NAME="output17" PATH="/pages/public/feedvisualization.xhtml"
+    TARGET="rules:#pages#public#feedvisualization.xhtml"
+    TITLE="feedvisualization" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="feedvisualizationprovdados::#pages#protected#provdados#feedvisualization.xhtml"
+    NAME="output18"
+    PATH="/pages/protected/provdados/feedvisualization.xhtml"
+    TARGET="rules:#pages#protected#provdados#feedvisualization.xhtml"
+    TITLE="feedvisualizationprovdados" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="feedvisualizationdevapp::#pages#protected#devapp#feedvisualization.xhtml"
+    NAME="output19"
+    PATH="/pages/protected/devapp/feedvisualization.xhtml"
+    TARGET="rules:#pages#protected#devapp#feedvisualization.xhtml"
+    TITLE="feedvisualizationdevapp" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="cadapplication::#pages#protected#devapp#cadapplication.xhtml"
+    NAME="output20" PATH="/pages/protected/devapp/cadapplication.xhtml"
+    TARGET="rules:#pages#protected#devapp#cadapplication.xhtml"
+    TITLE="cadapplication" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listapplications::#pages#public#listapplications.xhtml"
+    NAME="output21" PATH="/pages/public/listapplications.xhtml"
+    TARGET="rules:#pages#public#listapplications.xhtml"
+    TITLE="listapplications" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="listapplicationsuser::#pages#protected#devapp#listapplicationsuser.xhtml"
+    NAME="output22"
+    PATH="/pages/protected/devapp/listapplicationsuser.xhtml"
+    TARGET="rules:#pages#protected#devapp#listapplicationsuser.xhtml"
+    TITLE="listapplicationsuser" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="viewapplication::#pages#public#viewapplication.xhtml"
+    NAME="output23" PATH="/pages/public/viewapplication.xhtml"
+    TARGET="rules:#pages#public#viewapplication.xhtml"
+    TITLE="viewapplication" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="viewapplicationdevapp::#pages#protected#devapp#viewapplication.xhtml"
+    NAME="output24" PATH="/pages/protected/devapp/viewapplication.xhtml"
+    TARGET="rules:#pages#protected#devapp#viewapplication.xhtml"
+    TITLE="viewapplicationdevapp" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="resultexecution::#pages#public#resultexecution.xhtml"
+    NAME="output25" PATH="/pages/public/resultexecution.xhtml"
+    TARGET="rules:#pages#public#resultexecution.xhtml"
+    TITLE="resultexecution" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="resultexecutiondevapp::#pages#protected#devapp#resultexecution.xhtml"
+    NAME="output26" PATH="/pages/protected/devapp/resultexecution.xhtml"
+    TARGET="rules:#pages#protected#devapp#resultexecution.xhtml"
+    TITLE="resultexecutiondevapp" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="includefeeds::#pages#protected#devapp#includefeeds.xhtml"
+    NAME="output27" PATH="/pages/protected/devapp/includefeeds.xhtml"
+    TARGET="rules:#pages#protected#devapp#includefeeds.xhtml"
+    TITLE="includefeeds" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="deletefeeds::#pages#protected#devapp#deletefeeds.xhtml"
+    NAME="output28" PATH="/pages/protected/devapp/deletefeeds.xhtml"
+    TARGET="rules:#pages#protected#devapp#deletefeeds.xhtml"
+    TITLE="deletefeeds" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="regusergroup::#pages#protected#provdados#regusergroup.xhtml"
+    NAME="output29" PATH="/pages/protected/provdados/regusergroup.xhtml"
+    TARGET="rules:#pages#protected#provdados#regusergroup.xhtml"
+    TITLE="regusergroup" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#public#index.xhtml"
+  PATH="/pages/public/index.xhtml" SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#search.xhtml"
+  PATH="/pages/public/search.xhtml" SHAPE="256,177,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#fabdisp#regdevice.xhtml"
+  PATH="/pages/protected/fabdisp/regdevice.xhtml" SHAPE="272,321,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#provdados#connectdevice.xhtml"
+  PATH="/pages/protected/provdados/connectdevice.xhtml"
+  SHAPE="304,497,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#listdevicepublic.xhtml"
+  PATH="/pages/public/listdevicepublic.xhtml" SHAPE="304,529,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#provdados#regfeed.xhtml"
+  PATH="/pages/protected/provdados/regfeed.xhtml" SHAPE="304,561,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#provdados#listfeed.xhtml"
+  PATH="/pages/protected/provdados/listfeed.xhtml" SHAPE="304,593,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#provdados#listconnectdev.xhtml"
+  PATH="/pages/protected/provdados/listconnectdev.xhtml"
+  SHAPE="304,625,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#reguser.xhtml"
+  PATH="/pages/public/reguser.xhtml" SHAPE="304,657,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#documentation.xhtml"
+  PATH="/pages/public/documentation.xhtml" SHAPE="304,753,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#fabdisp#listdevice.xhtml"
+  PATH="/pages/protected/fabdisp/listdevice.xhtml" SHAPE="304,721,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#feedvisualization.xhtml"
+  PATH="/pages/public/feedvisualization.xhtml" SHAPE="304,785,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#devapp#cadapplication.xhtml"
+  PATH="/pages/protected/devapp/cadapplication.xhtml"
+  SHAPE="304,817,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#devapp#listapplicationsuser.xhtml"
+  PATH="/pages/protected/devapp/listapplicationsuser.xhtml"
+  SHAPE="304,881,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#devapp#viewapplication.xhtml"
+  PATH="/pages/protected/devapp/viewapplication.xhtml"
+  SHAPE="304,913,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#devapp#includefeeds.xhtml"
+  PATH="/pages/protected/devapp/includefeeds.xhtml" SHAPE="304,1009,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#devapp#deletefeeds.xhtml"
+  PATH="/pages/protected/devapp/deletefeeds.xhtml" SHAPE="304,1681,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#devapp#resultexecution.xhtml"
+  PATH="/pages/protected/devapp/resultexecution.xhtml"
+  SHAPE="304,1009,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#provdados#feedvisualization.xhtml"
+  PATH="/pages/protected/provdados/feedvisualization.xhtml"
+  SHAPE="304,1009,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#listapplications.xhtml"
+  PATH="/pages/public/listapplications.xhtml" SHAPE="304,1041,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#resultexecution.xhtml"
+  PATH="/pages/public/resultexecution.xhtml" SHAPE="304,1825,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#viewapplication.xhtml"
+  PATH="/pages/public/viewapplication.xhtml" SHAPE="304,1041,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#devapp#feedvisualization.xhtml"
+  PATH="/pages/protected/devapp/feedvisualization.xhtml"
+  SHAPE="304,1105,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#pages#protected#provdados#regusergroup.xhtml"
+  PATH="/pages/protected/provdados/regusergroup.xhtml"
+  SHAPE="304,1297,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>
